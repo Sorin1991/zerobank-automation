@@ -10,5 +10,7 @@ public class DashboardPage extends BasePage{
     @FindBy(xpath = "//a[normalize-space()='username']")
     public WebElement usernameCheck;
 
+    @FindBy(xpath = "//strong[.='Online Banking']")
+    public WebElement onlineBanking;
 
 }
