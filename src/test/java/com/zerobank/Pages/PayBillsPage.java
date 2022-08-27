@@ -28,4 +28,17 @@ public class PayBillsPage extends BasePage{
 
     @FindBy(id = "alert_content")
     public WebElement successMessage;
+
+    @FindBy(xpath = "//select[@id='pc_currency']")
+    public WebElement selectCurrency;
+
+    @FindBy(xpath = "//input[@id='pc_amount']")
+    public WebElement amountOfCurrencyToBuy;
+
+    @FindBy(xpath = "//input[@id='purchase_cash']")
+    public WebElement foreignCurrencyPurchaseButton;
+
+
+
+
 }
