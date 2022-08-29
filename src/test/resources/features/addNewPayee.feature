@@ -1,5 +1,5 @@
 Feature: Add new payee under pay bills
-  @ulku
+
   Scenario: Add a new payee
     Given Add New Payee tab
     And creates new payee using following information
