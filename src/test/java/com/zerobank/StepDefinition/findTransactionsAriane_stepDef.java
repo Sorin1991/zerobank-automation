@@ -55,7 +55,7 @@ public class findTransactionsAriane_stepDef {
         }
         for (WebElement eachDescriptionCell : accountActivityPage.filteredTransactionsDescriptionCells) {
             // String DescriptionText = eachDescriptionCell.getText();
-           // System.out.println("eachDescriptionCell.getText() = " + eachDescriptionCell.getText());
+            // System.out.println("eachDescriptionCell.getText() = " + eachDescriptionCell.getText());
             Assert.assertTrue(eachDescriptionCell.getText().contains("ONLINE"));
 
 
