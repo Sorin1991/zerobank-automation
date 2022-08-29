@@ -1,6 +1,6 @@
 Feature: Zerobank login feature
 
-@cem
+
 Scenario: User should login with valid credentials
 
 When User is on the login-page

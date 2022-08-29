@@ -16,14 +16,11 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/zerobank/StepDefinition",
         dryRun = false,
-        tags = "@ulku"
+        tags = "@cem"
 
 )
 
 public class Positive_Test_Runner {
-
-
-
 
 
 }
